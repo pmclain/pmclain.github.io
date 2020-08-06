@@ -1,0 +1,25 @@
+---
+- title: GitHub
+  username: pmclain
+  link: https://github.com/pmclain
+  class: fab fa-github
+
+- title: LinkedIn
+  username: pmclain
+  link: https://www.linkedin.com/in/pmclain/
+  class: fab fa-linkedin
+
+- title: StackExchange
+  username: pmclain
+  link: https://magento.stackexchange.com/users/34118/pmclain
+  class: fab fa-stack-exchange
+
+- title: Twitter
+  username: "@patmclain"
+  link: https://twitter.com/patmclain
+  class: fab fa-twitter
+
+- title: Email
+  username: "pat@pmclain.com"
+  link: "mailto:pat@pmclain.com"
+  class: fas fa-envelope-square

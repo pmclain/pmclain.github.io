@@ -1,0 +1,30 @@
+---
+title: About
+layout: page
+permalink: /
+---
+<h1>Hi, I'm Patrick McLain</h1>
+<p>A software developer primarily working with PHP.</p>
+
+<h3>Recent Thoughts</h3>
+{%- if site.posts.size > 0 -%}
+    <ul>
+    {%- for post in site.posts limit:5 -%}
+        <li>
+            {%- assign date_format = "%Y-%m-%d" -%}
+            [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+    {%- endfor -%}
+    </ul>
+{%- endif -%}
+
+{%- if site.data.contributions.size > 0 -%}
+<h3>Open Source Contributions</h3>
+<ul>
+    {%- for contribution in site.data.contributions -%}
+        <li>
+            [ {{ contribution.type }} ] <a href="{{ contribution.link }}">{{ contribution.name }}</a>
+        </li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}

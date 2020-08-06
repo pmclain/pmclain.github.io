@@ -1,0 +1,28 @@
+title: Patrick McLain
+email: pat@pmclain.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Patrick McLain software developer primarily working with PHP
+baseurl: ""
+url: "https://pmclain.com"
+twitter_username: patmclain
+github_username:  pmclain
+
+# Build settings
+theme: jekyll-theme-console
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.html
+  - blog.md
+  - contact.html
+
+footer: '&#169; 2020 Patrick McLain<script src="https://kit.fontawesome.com/1a2b004cd3.js" crossorigin="anonymous"></script>'
+
+exclude:
+  - .jekyll-cache/
+  - .idea/
+  - ansible/
+  - Gemfile
+  - Gemfile.lock
+  - Jenkinsfile.build

@@ -1,0 +1,16 @@
+---
+title: Contact
+layout: page
+permalink: /contact/
+---
+
+{%- if site.data.contacts.size > 0 -%}
+<ul class="contact-list">
+    {%- for contact in site.data.contacts -%}
+    <li>
+        <a href="{{ contact.link }}" title="{{ contact.title }}">
+            <i class="{{ contact.class }}"></i> {{ contact.username }}
+        </a>    </li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}

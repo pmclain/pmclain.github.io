@@ -1,0 +1,12 @@
+ul.contact-list {
+  font-size: 1.25rem;
+
+  li:before {
+    content: "";
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  };
+}
