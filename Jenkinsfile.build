@@ -16,7 +16,7 @@ pipeline {
             }
             steps {
                 sh 'bundle install'
-                sh 'jekyll build'
+                sh 'JEKYLL_ENV=production jekyll build'
                 sh 'cd _site && pwd && tar -zcvf build.tar.gz .'
                 stash(
                     name: 'artifact',
