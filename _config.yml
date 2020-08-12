@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://pmclain.com"
 twitter_username: patmclain
 github_username:  pmclain
+google_analytics: "UA-175263988-1"
 
 # Build settings
 theme: jekyll-theme-console
