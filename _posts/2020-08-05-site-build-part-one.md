@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Site Build Part One - Docker and NGINX"
 date:   2020-08-05 16:12:00 -0500
 categories: devops

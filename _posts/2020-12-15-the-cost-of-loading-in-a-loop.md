@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "The Cost of Loading in a Loop"
 date:   2020-12-15 06:00:00 -0500
 categories: magento2

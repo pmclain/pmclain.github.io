@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Building Magento 2 with Jenkins"
 date:   2020-08-12 06:00:00 -0500
 categories: magento2,devops

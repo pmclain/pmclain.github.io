@@ -9,7 +9,7 @@ github_username:  pmclain
 google_analytics: "UA-175263988-1"
 
 # Build settings
-theme: jekyll-theme-console
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
@@ -18,7 +18,7 @@ header_pages:
   - blog.md
   - contact.html
 
-footer: '&#169; 2020 Patrick McLain<script src="https://kit.fontawesome.com/1a2b004cd3.js" crossorigin="anonymous"></script>'
+footer: '&#169; 2020 Patrick McLain'
 
 exclude:
   - .jekyll-cache/

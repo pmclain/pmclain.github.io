@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Magento 2 Deploy with Anistrano"
 date:   2020-08-12 12:00:00 -0500
 categories: magento2,devops

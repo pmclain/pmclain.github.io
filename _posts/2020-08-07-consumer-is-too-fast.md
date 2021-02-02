@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "The Consumer is too Fast"
 date:   2020-08-07 05:00:00 -0500
 categories: magento2

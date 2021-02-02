@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Our Old Friend Race Condition"
 date:   2020-12-20 06:00:00 -0500
 categories: magento2

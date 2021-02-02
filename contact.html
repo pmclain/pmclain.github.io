@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: page
+layout: default
 permalink: /contact/
 ---
 
@@ -10,7 +10,8 @@ permalink: /contact/
     <li>
         <a href="{{ contact.link }}" title="{{ contact.title }}">
             <i class="{{ contact.class }}"></i> {{ contact.username }}
-        </a>    </li>
+        </a>
+    </li>
     {%- endfor -%}
 </ul>
 {%- endif -%}

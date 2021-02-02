@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "The Right Data in the Wrong Place"
 date:   2020-12-16 06:00:00 -0500
 categories: magento2

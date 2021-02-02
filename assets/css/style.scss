@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header nav li a {
+  border: none;
+  background-color: inherit;
+  &:hover {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+ul.contact-list {
+  font-size: 1.25rem;
+  list-style: none;
+  li {
+    padding: 0 0 0.5rem 0;
+  }
+}
+
+footer {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  text-align: right;
+}
