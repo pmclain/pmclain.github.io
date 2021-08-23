@@ -27,3 +27,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Jenkinsfile.build
+  - vendor
