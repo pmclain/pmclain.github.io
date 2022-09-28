@@ -1,7 +1,7 @@
 title: Patrick McLain
 email: pat@pmclain.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Patrick McLain software developer primarily working with PHP
+  Enterprise software architect
 baseurl: ""
 url: "https://pmclain.com"
 twitter_username: patmclain
@@ -9,22 +9,15 @@ github_username:  pmclain
 google_analytics: "UA-175263988-1"
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: minima
 plugins:
   - jekyll-feed
-
-header_pages:
-  - index.html
-  - blog.md
-  - contact.html
 
 footer: '&#169; 2022 Patrick McLain'
 
 exclude:
   - .jekyll-cache/
   - .idea/
-  - ansible/
   - Gemfile
   - Gemfile.lock
-  - Jenkinsfile.build
   - vendor
