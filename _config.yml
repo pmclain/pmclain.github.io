@@ -1,11 +1,12 @@
 title: Patrick McLain
 email: pat@pmclain.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Enterprise software architect
+  Enterprise software architect | Views expressed are my own
 baseurl: ""
 url: "https://pmclain.com"
 twitter_username: patmclain
 github_username:  pmclain
+linkedin_username: pmclain
 google_analytics: "UA-175263988-1"
 
 # Build settings
